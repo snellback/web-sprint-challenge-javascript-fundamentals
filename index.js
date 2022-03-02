@@ -21,8 +21,6 @@ myFunction();
 The nested function can access the variable "internal" because it is a child function of the "myFunction" parent and can access the parent scope.
 */
 
-
-
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
 /* Use summation to do the following:
     1. Receive a number 
@@ -76,8 +74,8 @@ const zooAnimals = [
   For example: ['jackal, asiatic', .....]
   */
 
-  function lowerCaseNames(animals){
-    const lowerCase = animals.map(animal => animal.animal_name.toLowerCase);
+  function lowerCaseNames(animalArray){
+    const lowerCase = animalArray.map(animal => animal['animal_name'].toLowerCase());
     return lowerCase;
   }
   
